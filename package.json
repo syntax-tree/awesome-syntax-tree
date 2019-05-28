@@ -1,0 +1,46 @@
+{
+  "name": "awesome-syntax-tree",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Curated list of awesome syntax-tree resources",
+  "license": "CC-BY-4.0",
+  "keywords": [],
+  "repository": "syntax-tree/awesome-syntax-tree",
+  "bugs": "https://github.com/syntax-tree/awesome-syntax-tree/issues",
+  "author": "Titus Wormer <tituswormer@gmail.com> (wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
+  ],
+  "devDependencies": {
+    "awesome-lint": "^0.10.0",
+    "remark-cli": "^6.0.0",
+    "remark-preset-wooorm": "^5.0.0"
+  },
+  "scripts": {
+    "format": "remark . -qo",
+    "test": "npm run format"
+  },
+  "remarkConfig": {
+    "settings": {
+      "listItemIndent": "1"
+    },
+    "plugins": [
+      "preset-wooorm",
+      [
+        "lint-list-item-indent",
+        "space"
+      ],
+      [
+        "toc",
+        {
+          "heading": "contents"
+        }
+      ],
+      "awesome-lint/config",
+      [
+        "awesome-lint/rules/contributing.js",
+        false
+      ]
+    ]
+  }
+}
