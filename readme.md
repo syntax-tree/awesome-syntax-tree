@@ -94,10 +94,10 @@ On top of [**unist**][unist] and its implementations sits the rest of
 
 ## Related lists
 
-* [awesome unified](https://github.com/unifiedjs/awesome)
+* [awesome unified](https://github.com/unifiedjs/awesome-unified)
 * [awesome remark](https://github.com/remarkjs/awesome-remark)
-* [awesome rehype](https://github.com/rehypejs/awesome)
-* [awesome retext](https://github.com/retextjs/awesome)
+* [awesome rehype](https://github.com/rehypejs/awesome-rehype)
+* [awesome retext](https://github.com/retextjs/awesome-retext)
 * [awesome mdx](https://github.com/transitive-bullshit/awesome-mdx)
 
 ## License
