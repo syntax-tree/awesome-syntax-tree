@@ -2,7 +2,7 @@
 
 # awesome syntax-tree [![awesome][awesome-badge]][self]
 
-[<img src="https://raw.githubusercontent.com/syntax-tree/unist/b187eb7/logo.svg?sanitize=true" align="right" alt width="200">](https://unified.js.org)
+[<img src="https://raw.githubusercontent.com/syntax-tree/unist/b187eb7/logo.svg?sanitize=true" align="right" alt width="200">](https://unifiedjs.com)
 
 > A curated list of awesome syntax-tree, [**unist**][unist], [**mdast**][mdast]
 > (Markdown), [**hast**][hast] (HTML), and [**nlcst**][nlcst] (prose) resources.
@@ -32,7 +32,7 @@ On top of [**unist**][unist] and its implementations sits the rest of
 * [hast](https://github.com/syntax-tree/hast) - **hast** (HTML) specification.
 * [nlcst](https://github.com/syntax-tree/nlcst) - **nlcst** (prose) specification.
 * [unified](https://github.com/unifiedjs/unified) - Ecosystem.
-* [unified.js.org](https://unified.js.org) - Ecosystem website.
+* [unifiedjs.com](https://unifiedjs.com) - Ecosystem website.
 
 ## unist utilities
 
