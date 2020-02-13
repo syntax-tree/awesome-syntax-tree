@@ -5,10 +5,12 @@
 [<img src="https://raw.githubusercontent.com/syntax-tree/unist/b187eb7/logo.svg?sanitize=true" align="right" alt width="200">](https://unifiedjs.com)
 
 > A curated list of awesome syntax-tree, [**unist**][unist], [**mdast**][mdast]
-> (Markdown), [**hast**][hast] (HTML), and [**nlcst**][nlcst] (prose) resources.
+> (Markdown), [**hast**][hast] (HTML), [**xast**][xast] (XML), and
+> [**nlcst**][nlcst] (prose) resources.
 
 **syntax-tree** is an organization housing [**unist**][unist] and its main
-implementations [**mdast**][mdast], [**hast**][hast], and [**nlcst**][nlcst].
+implementations [**mdast**][mdast], [**hast**][hast], [**xast**][xast], and
+[**nlcst**][nlcst].
 [**unist**][unist] is a specification for syntax trees that comes with a big
 ecosystem of utilities in JavaScript for working with those trees.
 On top of [**unist**][unist] and its implementations sits the rest of
@@ -20,6 +22,7 @@ On top of [**unist**][unist] and its implementations sits the rest of
 * [unist utilities](#unist-utilities)
 * [mdast utilities](#mdast-utilities)
 * [hast utilities](#hast-utilities)
+* [xast utilities](#xast-utilities)
 * [nlcst utilities](#nlcst-utilities)
 * [Related lists](#related-lists)
 * [License](#license)
@@ -30,6 +33,7 @@ On top of [**unist**][unist] and its implementations sits the rest of
 * [unist](https://github.com/syntax-tree/unist) - **unist** specification.
 * [mdast](https://github.com/syntax-tree/mdast) - **mdast** (Markdown) specification.
 * [hast](https://github.com/syntax-tree/hast) - **hast** (HTML) specification.
+* [xast](https://github.com/syntax-tree/xast) - **xast** (XML) specification.
 * [nlcst](https://github.com/syntax-tree/nlcst) - **nlcst** (prose) specification.
 * [unified](https://github.com/unifiedjs/unified) - Ecosystem.
 * [unifiedjs.com](https://unifiedjs.com) - Ecosystem website.
@@ -73,6 +77,7 @@ On top of [**unist**][unist] and its implementations sits the rest of
 * [hast-util-to-mdast](https://github.com/syntax-tree/hast-util-to-mdast) - Transform to mdast.
 * [hast-util-to-nlcst](https://github.com/syntax-tree/hast-util-to-nlcst) - Transform to nlcst.
 * [hast-util-to-text](https://github.com/syntax-tree/hast-util-to-text) - Get plain-text content.
+* [hast-util-to-xast](https://github.com/syntax-tree/hast-util-to-xast) - Transform to xast.
 * [hast-util-find-and-replace](https://github.com/syntax-tree/hast-util-find-and-replace) - Find and replace text in a tree.
 * [hast-util-sanitize](https://github.com/syntax-tree/hast-util-sanitize) - Sanitize a tree.
 * [hast-util-select](https://github.com/syntax-tree/hast-util-select) - `querySelector`, `querySelectorAll`, and `matches`.
@@ -81,6 +86,13 @@ On top of [**unist**][unist] and its implementations sits the rest of
 * [hast-util-assert](https://github.com/syntax-tree/hast-util-assert) - Assert nodes.
 
 [Find more utilities »](https://github.com/syntax-tree/hast#list-of-utilities)
+
+## xast utilities
+
+* [xastscript](https://github.com/syntax-tree/xastscript) - Create xast trees.
+* [xast-util-to-xml](https://github.com/syntax-tree/xast-util-to-xml) - Transform to an XML string.
+
+[Find more utilities »](https://github.com/syntax-tree/xast#list-of-utilities)
 
 ## nlcst utilities
 
@@ -121,6 +133,8 @@ On top of [**unist**][unist] and its implementations sits the rest of
 [unist]: https://github.com/syntax-tree/unist
 
 [hast]: https://github.com/syntax-tree/hast
+
+[xast]: https://github.com/syntax-tree/xast
 
 [mdast]: https://github.com/syntax-tree/mdast
 
