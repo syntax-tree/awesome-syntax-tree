@@ -110,7 +110,7 @@ On top of [**unist**][unist] and its implementations sits the rest of
 * [awesome remark](https://github.com/remarkjs/awesome-remark)
 * [awesome rehype](https://github.com/rehypejs/awesome-rehype)
 * [awesome retext](https://github.com/retextjs/awesome-retext)
-* [awesome mdx](https://github.com/transitive-bullshit/awesome-mdx)
+* [awesome mdx](https://github.com/mdx-js/awesome)
 
 ## License
 
