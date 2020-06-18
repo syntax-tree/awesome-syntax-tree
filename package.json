@@ -28,12 +28,6 @@
       [
         "lint-list-item-indent",
         "space"
-      ],
-      [
-        "toc",
-        {
-          "heading": "contents"
-        }
       ]
     ]
   }
