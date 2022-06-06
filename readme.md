@@ -4,17 +4,17 @@
 
 [<img src="https://raw.githubusercontent.com/syntax-tree/unist/b187eb7/logo.svg?sanitize=true" align="right" alt width="200">](https://unifiedjs.com)
 
-> A curated list of awesome syntax-tree, [**unist**][unist], [**mdast**][mdast]
-> (Markdown), [**hast**][hast] (HTML), [**xast**][xast] (XML), and
-> [**nlcst**][nlcst] (prose) resources.
+> A curated list of awesome syntax-tree, **[unist][]**, **[mdast][]**
+> (markdown), **[hast][]** (HTML), **[xast][]** (XML), **[esast][]** (JS), and
+> **[nlcst][]** (prose) resources.
 
-**syntax-tree** is an organization housing [**unist**][unist] and its main
-implementations [**mdast**][mdast], [**hast**][hast], [**xast**][xast], and
-[**nlcst**][nlcst].
-[**unist**][unist] is a specification for syntax trees that comes with a big
+**syntax-tree** is an organization housing **[unist][]** and its main
+implementations **[mdast][]**, **[hast][]**, **[xast][]**, **[esast][]**, and
+**[nlcst][]**.
+**[unist][]** is a specification for syntax trees that comes with a big
 ecosystem of utilities in JavaScript for working with those trees.
-On top of [**unist**][unist] and its implementations sits the rest of
-[**unified**][unified] that does all kinds of things to process content.
+On top of **[unist][]** and its implementations sits the rest of
+**[unified][]** that does all kinds of things to process content.
 
 ## Contents
 
@@ -23,6 +23,7 @@ On top of [**unist**][unist] and its implementations sits the rest of
 * [mdast utilities](#mdast-utilities)
 * [hast utilities](#hast-utilities)
 * [xast utilities](#xast-utilities)
+* [esast utilities](#esast-utilities)
 * [nlcst utilities](#nlcst-utilities)
 * [Related lists](#related-lists)
 * [License](#license)
@@ -31,9 +32,10 @@ On top of [**unist**][unist] and its implementations sits the rest of
 
 * [syntax-tree](https://github.com/syntax-tree) - Organization.
 * [unist](https://github.com/syntax-tree/unist) - **unist** specification.
-* [mdast](https://github.com/syntax-tree/mdast) - **mdast** (Markdown) specification.
+* [mdast](https://github.com/syntax-tree/mdast) - **mdast** (markdown) specification.
 * [hast](https://github.com/syntax-tree/hast) - **hast** (HTML) specification.
 * [xast](https://github.com/syntax-tree/xast) - **xast** (XML) specification.
+* [esast](https://github.com/syntax-tree/esast) - **esast** (JS) specification.
 * [nlcst](https://github.com/syntax-tree/nlcst) - **nlcst** (prose) specification.
 * [unified](https://github.com/unifiedjs/unified) - Ecosystem.
 * [unifiedjs.com](https://unifiedjs.com) - Ecosystem website.
@@ -90,7 +92,20 @@ On top of [**unist**][unist] and its implementations sits the rest of
 ## xast utilities
 
 * [xastscript](https://github.com/syntax-tree/xastscript) - Create xast trees.
+* [xast-util-feed](https://github.com/syntax-tree/xast-util-feed) - Build a feed (RSS, Atom).
+* [xast-util-from-xml](https://github.com/syntax-tree/xast-util-from-xml) - Transform from an XML string.
+* [xast-util-sitemap](https://github.com/syntax-tree/xast-util-sitemap) - Build a sitemap.
 * [xast-util-to-xml](https://github.com/syntax-tree/xast-util-to-xml) - Transform to an XML string.
+
+[Find more utilities »](https://github.com/syntax-tree/xast#list-of-utilities)
+
+## esast utilities
+
+* [estree-util-attach-comments](https://github.com/syntax-tree/estree-util-attach-comments) - Attach comments to the tree.
+* [estree-util-build-jsx](https://github.com/syntax-tree/estree-util-build-jsx) - Turn JSX into function calls.
+* [esast-util-from-js](https://github.com/syntax-tree/esast-util-from-js) - Transform from a JavaScript string.
+* [estree-util-to-js](https://github.com/syntax-tree/estree-util-to-js) - Transform to a JavaScript string.
+* [estree-util-value-to-estree](https://github.com/remcohaszing/estree-util-value-to-estree) - Turn a JavaScript value into an estree expression
 
 [Find more utilities »](https://github.com/syntax-tree/xast#list-of-utilities)
 
@@ -135,6 +150,8 @@ On top of [**unist**][unist] and its implementations sits the rest of
 [hast]: https://github.com/syntax-tree/hast
 
 [xast]: https://github.com/syntax-tree/xast
+
+[esast]: https://github.com/syntax-tree/esast
 
 [mdast]: https://github.com/syntax-tree/mdast
 
