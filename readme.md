@@ -107,7 +107,7 @@ On top of **[unist][]** and its implementations sits the rest of
 * [estree-util-to-js](https://github.com/syntax-tree/estree-util-to-js) - Transform to a JavaScript string.
 * [estree-util-value-to-estree](https://github.com/remcohaszing/estree-util-value-to-estree) - Turn a JavaScript value into an estree expression
 
-[Find more utilities »](https://github.com/syntax-tree/xast#list-of-utilities)
+[Find more utilities »](https://github.com/syntax-tree/esast#list-of-utilities)
 
 ## nlcst utilities
 
