@@ -71,10 +71,10 @@ On top of **[unist][]** and its implementations sits the rest of
 ## hast utilities
 
 * [hastscript](https://github.com/syntax-tree/hastscript) - Create trees with a nice syntax.
-* [hast-to-hyperscript](https://github.com/syntax-tree/hast-to-hyperscript) - Transform to something else (React, Vue, etc).
 * [hast-util-from-dom](https://github.com/syntax-tree/hast-util-from-dom) - Transform from a DOM tree.
 * [hast-util-from-text](https://github.com/syntax-tree/hast-util-from-text) - Set plain-text content.
 * [hast-util-to-dom](https://github.com/syntax-tree/hast-util-to-dom) - Transform to a DOM tree.
+* [hast-util-to-jsx-runtime](https://github.com/syntax-tree/hast-util-to-jsx-runtime) - Transform to preact, react, solid, svelte, vue, etc.
 * [hast-util-to-html](https://github.com/syntax-tree/hast-util-to-html) - Transform to an HTML string.
 * [hast-util-to-mdast](https://github.com/syntax-tree/hast-util-to-mdast) - Transform to mdast.
 * [hast-util-to-nlcst](https://github.com/syntax-tree/hast-util-to-nlcst) - Transform to nlcst.
