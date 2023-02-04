@@ -12,7 +12,7 @@
     "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
   ],
   "devDependencies": {
-    "remark-cli": "^10.0.0",
+    "remark-cli": "^11.0.0",
     "remark-preset-wooorm": "^9.0.0"
   },
   "scripts": {
@@ -21,12 +21,12 @@
   },
   "remarkConfig": {
     "settings": {
-      "listItemIndent": "1"
+      "listItemIndent": "one"
     },
     "plugins": [
-      "preset-wooorm",
+      "remark-preset-wooorm",
       [
-        "lint-list-item-indent",
+        "remark-lint-list-item-indent",
         "space"
       ]
     ]
