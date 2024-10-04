@@ -2,15 +2,22 @@
 
 # awesome syntax-tree [![awesome][awesome-badge]][self]
 
-[<img src="https://raw.githubusercontent.com/syntax-tree/unist/b187eb7/logo.svg?sanitize=true" align="right" alt width="200">](https://unifiedjs.com)
+[<img align="right" alt src="https://raw.githubusercontent.com/syntax-tree/unist/1310d30/logo-square.svg?sanitize=true" width="200">](https://unifiedjs.com)
 
-> A curated list of awesome syntax-tree, **[unist][]**, **[mdast][]**
-> (markdown), **[hast][]** (HTML), **[xast][]** (XML), **[esast][]** (JS), and
-> **[nlcst][]** (prose) resources.
+> A curated list of awesome syntax-tree,
+> **[unist][]**,
+> **[mdast][]** (markdown),
+> **[hast][]** (HTML),
+> **[xast][]** (XML),
+> **[esast][]** (JS),
+> and **[nlcst][]** (prose) resources.
 
 **syntax-tree** is an organization housing **[unist][]** and its main
-implementations **[mdast][]**, **[hast][]**, **[xast][]**, **[esast][]**, and
-**[nlcst][]**.
+implementations **[mdast][]**,
+**[hast][]**,
+**[xast][]**,
+**[esast][]**,
+and **[nlcst][]**.
 **[unist][]** is a specification for syntax trees that comes with a big
 ecosystem of utilities in JavaScript for working with those trees.
 On top of **[unist][]** and its implementations sits the rest of
@@ -133,13 +140,21 @@ On top of **[unist][]** and its implementations sits the rest of
 
 <!-- Definitions. -->
 
-[license]: https://creativecommons.org/licenses/by/4.0/
-
-[license-badge]: https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
-
 [author]: https://wooorm.com
 
 [awesome-badge]: https://awesome.re/badge.svg
+
+[esast]: https://github.com/syntax-tree/esast
+
+[hast]: https://github.com/syntax-tree/hast
+
+[license-badge]: https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
+
+[license]: https://creativecommons.org/licenses/by/4.0/
+
+[mdast]: https://github.com/syntax-tree/mdast
+
+[nlcst]: https://github.com/syntax-tree/nlcst
 
 [self]: https://github.com/remarkjs/awesome-remark
 
@@ -147,12 +162,4 @@ On top of **[unist][]** and its implementations sits the rest of
 
 [unist]: https://github.com/syntax-tree/unist
 
-[hast]: https://github.com/syntax-tree/hast
-
 [xast]: https://github.com/syntax-tree/xast
-
-[esast]: https://github.com/syntax-tree/esast
-
-[mdast]: https://github.com/syntax-tree/mdast
-
-[nlcst]: https://github.com/syntax-tree/nlcst
