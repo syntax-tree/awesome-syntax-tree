@@ -1,27 +1,27 @@
 {
-  "name": "awesome-syntax-tree",
-  "private": true,
-  "version": "0.0.0",
-  "description": "Curated list of awesome syntax-tree resources",
-  "license": "CC-BY-4.0",
-  "keywords": [],
-  "repository": "syntax-tree/awesome-syntax-tree",
-  "bugs": "https://github.com/syntax-tree/awesome-syntax-tree/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (wooorm.com)",
+  "bugs": "https://github.com/syntax-tree/awesome-syntax-tree/issues",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
   ],
+  "description": "Curated list of awesome syntax-tree resources",
   "devDependencies": {
     "remark-cli": "^12.0.0",
     "remark-preset-wooorm": "^10.0.0"
   },
-  "scripts": {
-    "format": "remark . -qo",
-    "test": "npm run format"
-  },
+  "keywords": [],
+  "license": "CC-BY-4.0",
+  "name": "awesome-syntax-tree",
+  "private": true,
   "remarkConfig": {
     "plugins": [
       "remark-preset-wooorm"
     ]
-  }
+  },
+  "repository": "syntax-tree/awesome-syntax-tree",
+  "scripts": {
+    "format": "remark --frail --output --quiet -- .",
+    "test": "npm run format"
+  },
+  "version": "0.0.0"
 }
